@@ -56,5 +56,37 @@ translate_u(4,-3) dsa_row(3) legend("\u0095", size=6, font_name="Wingdings") key
 translate_u(-1,-3) dsa_row(3) legend("\u005d", size=6, font_name="Wingdings") key();
 */
 
-dsa_row(3) legend("A", position=[-1,0], size = 5) legend("%", position=[1,-1], size = 4)  legend("\u00e7", position=[1,1], size=3, font_name="Wingdings")  key();
+translate_u(0,2) dsa_row(3) legend("6", position=[-1,0], size=5) legend("^", position=[1,-1], size=4) key();
+translate_u(1,2) dsa_row(3) legend("7", position=[-1,0], size=5) legend("&", position=[1,-1], size=4) key();
+translate_u(2,2) dsa_row(3) legend("8", position=[-1,0], size=5) legend("*", position=[1,-1], size=4) key();
+translate_u(3,2) dsa_row(3) legend("9", position=[-1,0], size=5) legend("(", position=[1,-1], size=4) key();
+translate_u(4,2) dsa_row(3) legend("0", position=[-1,0], size=5) legend(")", position=[1,-1], size=4) key();
+translate_u(5.3,2) dsa_row(3) 1_5u() legend("PrtScn", size=4) key();
+
+translate_u(0,1) dsa_row(3) legend("Y", position=[-1,0], size=5) legend("]", position=[1,-1], size=4) key();
+translate_u(1,1) dsa_row(3) legend("U", position=[-1,0], size=5) legend("7", position=[1,-1], size=4) key();
+translate_u(2,1) dsa_row(3) legend("I", position=[-1,0], size=5) legend("8", position=[1,-1], size=4) key();
+translate_u(3,1) dsa_row(3) legend("O", position=[-1,0], size=5) legend("9", position=[1,-1], size=4) key();
+translate_u(4,1) dsa_row(3) legend("P", position=[-1,0], size=5) key();
+translate_u(5.3,1) dsa_row(3) 1_5u() legend("\u00D5", size=6, font_name="Wingdings")  key();
+
+dsa_row(3) legend("H", position=[-1,0], size=5) legend("}", position=[1,-1], size=4) key();
+translate_u(1,0) dsa_row(3) legend("J", position=[-1,0], size=5) legend("4", position=[1,-1], size=4) key();
+translate_u(2,0) dsa_row(3) legend("K", position=[-1,0], size=5) legend("5", position=[1,-1], size=4) key();
+translate_u(3,0) dsa_row(3) legend("L", position=[-1,0], size=5) legend("6", position=[1,-1], size=4) key();
+translate_u(4,0) dsa_row(3) legend(";:", position=[-1,0], size=5) key();
+translate_u(5.3,0) dsa_row(3) 1_5u() legend("\u00C3", size=6, font_name="Wingdings")  key();
+
+translate_u(0,-1) dsa_row(3) legend("N", position=[-1,0], size=5) legend(")", position=[1,-1], size=4) key();
+translate_u(1,-1) dsa_row(3) legend("M", position=[-1,0], size=5) legend("1", position=[1,-1], size=4) key();
+translate_u(2,-1) dsa_row(3) legend(",<", position=[-1,0], size =5) legend("2", position=[1,-1], size=4) key();
+translate_u(3,-1) dsa_row(3) legend(".>", position=[-1,0], size =5) legend("3", position=[1,-1], size=4) key();
+translate_u(4,-1) dsa_row(3) legend("/?", position=[-1,0], size =5) key();
+translate_u(5.3,-1) dsa_row(3) 1_5u() legend("\u00c3", size=7, font_name="Wingdings 3")  key();
+
+translate_u(0,-2) dsa_row(3) legend("\u0056", position=[-1,0], size=7, font_name="Wingdings 3") legend("\u00b1", position=[1,-1], size=5, font_name="Wingdings") key();
+translate_u(1,-2) dsa_row(3) legend("-_", position=[-1,0], size=5) key();
+translate_u(2,-2) dsa_row(3) legend("=+", position=[-1,0], size=5) legend("0", position=[1,-1], size=5)  key();
+translate_u(3,-2) dsa_row(3) legend("' \"", position=[-1,0], size=5) key();
+translate_u(4,-2) dsa_row(3) key(inset=true) {translate([-1,4.5,-2]) scale([0.16,0.16,1]) import("win10_logo.stl");};
 

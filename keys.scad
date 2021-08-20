@@ -9,10 +9,12 @@ include <./includes.scad>
 
 
 // example key
-dcs_row(5) legend("⇪", size=9) key();
+//dcs_row(5) legend("⇪", size=9) key();
 
-// different font legends
-translate_u(0,-1) dsa_row(3) legend("A", position=[-1,-1], size=4, font_name="Arial") legend("%", position=[1,0], size=3, font_name="Arial Rounded MT Bold")key();
+$skin_extrude_shape = true;
+$inset_legend_depth = 0.6;
+
+translate_u(0,-1) dsa_row(3) legend("Z", position=[-1,0], size=5) legend("!", position=[1,-1], size=4) legend("\u004f", position=[1,1], size=4, font_name="Wingdings 3") no_stem_support() key();
 
 // example row
 /* for (x = [0:1:4]) {
